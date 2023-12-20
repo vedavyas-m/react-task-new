@@ -1,0 +1,39 @@
+.head{
+    margin-inline: auto;
+    margin-top: 20px;
+    }
+.form{
+    padding-bottom: 20px;
+}
+.formContainer {
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    padding:10px 30px;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    margin-bottom: 20px;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 500px;
+    min-width: 200px;
+    margin-top: 20px;
+}
+
+.inputContainer label{
+    font-weight: bold;
+}
+
+.buttonsContainer{
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
